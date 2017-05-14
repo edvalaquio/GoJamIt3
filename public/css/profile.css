@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Hind|Source+Code+Pro|Roboto+Condensed:700|Open+Sans:300,400');
+.container{
+	padding: 0px;
+}
+
+.profile-header{
+	background-color: white;
+	padding: 20px 20px 0px 20px;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Fjalla One', sans-serif;*/
+}
+
+.profile-image, .profile-name{
+	float: left;
+}
+
+.profile-image{
+	position: relative;
+	background-color: white;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.profile-image img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.profile-name{
+	color: white;
+	padding: 20px;
+	/*font-weight: bold;*/
+}
+
+.profile-name > *{
+	background-color: rgba(0,0,0,0.8);
+	padding: 5px;	
+}
+
+.profile-name > h1{
+	font-size: 50px;
+}
+
+.profile-name > h2{
+	font-size: 28px;
+}
+
+.profile-mini-nav{
+	width: 100%;
+	float: left;
+	background-color: white;
+	padding-top: 10px;
+}
+
+.profile-mini-nav li > a{
+	background-color: rgba(221, 221, 221, 0.5);
+	color: rgb(74, 74, 74);
+	text-align: center;
+}
+
+.profile-mini-nav .btn, .profile-mini-nav li > a{
+	font-size: 18px;
+	width: 90px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
